@@ -1,0 +1,46 @@
+﻿/*navbar y footer*/
+.navbar.navbar-inverse {
+    background-color:#8A0808;
+    color:white;
+}
+#footer {
+    background-color: #8A0808;
+    color: #fff;
+    padding: 30px;
+}
+#footerDesign {
+    background-color: #510606;
+    color: #fff;
+    padding-left: 30px;
+}
+#footerDesign p {
+    margin-bottom:0px;
+}
+
+/*carousel*/
+.carousel-inner{
+    height:500px !important;
+}
+.carousel-indicators li {
+    background-color:#510606;
+    border-color:#510606;
+}
+.carousel-indicators .active {
+    background-color:#DF0101 !important;
+}
+
+/*cards*/
+.card {
+    width:300px !important;
+}
+.card-img-top {
+    height:200px !important;
+    width:300px !important;
+}
+.card-block{
+    padding-left: 35px;
+    padding-right: 35px;
+}
+.card-deck .card{
+    margin:35px !important;
+}
