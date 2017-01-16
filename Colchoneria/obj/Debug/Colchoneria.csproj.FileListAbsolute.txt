@@ -37,3 +37,42 @@ C:\Users\Lobita\documents\visual studio 2015\Projects\Colchoneria\Colchoneria\bi
 C:\Users\Lobita\documents\visual studio 2015\Projects\Colchoneria\Colchoneria\bin\es\System.Web.WebPages.resources.dll
 C:\Users\Lobita\documents\visual studio 2015\Projects\Colchoneria\Colchoneria\bin\es\System.Web.WebPages.Deployment.resources.dll
 C:\Users\Lobita\documents\visual studio 2015\Projects\Colchoneria\Colchoneria\bin\es\System.Web.WebPages.Razor.resources.dll
+C:\Users\lobita\Source\Repos\colcho\Colchoneria\Colchoneria\bin\roslyn\csc.exe
+C:\Users\lobita\Source\Repos\colcho\Colchoneria\Colchoneria\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\lobita\Source\Repos\colcho\Colchoneria\Colchoneria\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\lobita\Source\Repos\colcho\Colchoneria\Colchoneria\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\lobita\Source\Repos\colcho\Colchoneria\Colchoneria\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\lobita\Source\Repos\colcho\Colchoneria\Colchoneria\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\lobita\Source\Repos\colcho\Colchoneria\Colchoneria\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\lobita\Source\Repos\colcho\Colchoneria\Colchoneria\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\lobita\Source\Repos\colcho\Colchoneria\Colchoneria\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\lobita\Source\Repos\colcho\Colchoneria\Colchoneria\bin\roslyn\vbc.exe
+C:\Users\lobita\Source\Repos\colcho\Colchoneria\Colchoneria\bin\roslyn\VBCSCompiler.exe
+C:\Users\lobita\Source\Repos\colcho\Colchoneria\Colchoneria\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\lobita\Source\Repos\colcho\Colchoneria\Colchoneria\bin\Colchoneria.dll.config
+C:\Users\lobita\Source\Repos\colcho\Colchoneria\Colchoneria\bin\Colchoneria.dll
+C:\Users\lobita\Source\Repos\colcho\Colchoneria\Colchoneria\bin\Colchoneria.pdb
+C:\Users\lobita\Source\Repos\colcho\Colchoneria\Colchoneria\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\lobita\Source\Repos\colcho\Colchoneria\Colchoneria\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\lobita\Source\Repos\colcho\Colchoneria\Colchoneria\bin\System.Web.Helpers.dll
+C:\Users\lobita\Source\Repos\colcho\Colchoneria\Colchoneria\bin\System.Web.Mvc.dll
+C:\Users\lobita\Source\Repos\colcho\Colchoneria\Colchoneria\bin\System.Web.Razor.dll
+C:\Users\lobita\Source\Repos\colcho\Colchoneria\Colchoneria\bin\System.Web.WebPages.Deployment.dll
+C:\Users\lobita\Source\Repos\colcho\Colchoneria\Colchoneria\bin\System.Web.WebPages.dll
+C:\Users\lobita\Source\Repos\colcho\Colchoneria\Colchoneria\bin\System.Web.WebPages.Razor.dll
+C:\Users\lobita\Source\Repos\colcho\Colchoneria\Colchoneria\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\lobita\Source\Repos\colcho\Colchoneria\Colchoneria\bin\System.Web.Helpers.xml
+C:\Users\lobita\Source\Repos\colcho\Colchoneria\Colchoneria\bin\System.Web.Mvc.xml
+C:\Users\lobita\Source\Repos\colcho\Colchoneria\Colchoneria\bin\System.Web.Razor.xml
+C:\Users\lobita\Source\Repos\colcho\Colchoneria\Colchoneria\bin\System.Web.WebPages.xml
+C:\Users\lobita\Source\Repos\colcho\Colchoneria\Colchoneria\bin\System.Web.WebPages.Deployment.xml
+C:\Users\lobita\Source\Repos\colcho\Colchoneria\Colchoneria\bin\System.Web.WebPages.Razor.xml
+C:\Users\lobita\Source\Repos\colcho\Colchoneria\Colchoneria\bin\es\System.Web.Helpers.resources.dll
+C:\Users\lobita\Source\Repos\colcho\Colchoneria\Colchoneria\bin\es\System.Web.Mvc.resources.dll
+C:\Users\lobita\Source\Repos\colcho\Colchoneria\Colchoneria\bin\es\System.Web.Razor.resources.dll
+C:\Users\lobita\Source\Repos\colcho\Colchoneria\Colchoneria\bin\es\System.Web.WebPages.resources.dll
+C:\Users\lobita\Source\Repos\colcho\Colchoneria\Colchoneria\bin\es\System.Web.WebPages.Deployment.resources.dll
+C:\Users\lobita\Source\Repos\colcho\Colchoneria\Colchoneria\bin\es\System.Web.WebPages.Razor.resources.dll
+C:\Users\lobita\Source\Repos\colcho\Colchoneria\Colchoneria\obj\Debug\Colchoneria.csprojResolveAssemblyReference.cache
+C:\Users\lobita\Source\Repos\colcho\Colchoneria\Colchoneria\obj\Debug\Colchoneria.dll
+C:\Users\lobita\Source\Repos\colcho\Colchoneria\Colchoneria\obj\Debug\Colchoneria.pdb

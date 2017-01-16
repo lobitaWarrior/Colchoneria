@@ -17,7 +17,7 @@
     <!--BOOTSTRAP MAIN STYLES -->
     <link href="../Content/bootstrap.css" rel="stylesheet" />
     <!-- Bootstrap Material Design -->
-    <link rel="stylesheet" type="text/css" href="~/Content/bootstrap-material-design.css">
+    <link rel="stylesheet" type="text/css" href="~/Content/bootstrap-material-design.min.css">
     <link rel="stylesheet" type="text/css" href="~/Content/ripples.min.css">
     <!--FONTAWESOME MAIN STYLE -->
     <link href="../Content/font-awesome.css" rel="stylesheet" />
@@ -68,26 +68,31 @@
 
     <div id="footer">
         <div class="row">
-            <div class="col-md-4 pull-left">
-                <div>
-                    <p>Seguinos en:</p>
+            <div class="col-md-4">
+                <hr />
+                <h4>Colchoneria Karcevas</h4>
+                <p>1989</p>
+                <p>Argentina</p>
+                <hr />
+            </div>
+            <div class="col-md-4">
+                <hr />
+                <h4>Siguenos: </h4>
+                <p>
                     <a href="#"><i class="fa fa-facebook-square fa-3x color-facebook"></i></a>
-                    <a href="#"><i class="fa fa-eye fa-3x color-twitter"></i></a>
-                </div>
+                    <a href="#"><i class="fa fa-twitter-square fa-3x color-twitter"></i></a>
+                </p>
+                <br>
+                <hr />
             </div>
             <div class="col-md-4">
-                <div style="right:-18%;">
-                    <p>COLCHONERIA KARCEVAS</p>
-                </div>
-            </div>
-            <div class="col-md-4">
-                <div class="pull-right">
-                    <p>Consultas:</p>
-                    <p>
-                        <b>Mail: </b>colchoneria@fibertel.com.ar</br>
-                        <b>Tel: </b>4582-7417
-                    </p>
-                </div>
+                <hr />
+                <h4>Consultas:</h4>
+                <p>
+                    <b>Mail: </b>colchoneria@fibertel.com.ar</br>
+                </p>
+                <p><b>Tel: </b>4582-7417</p>
+                <hr />
             </div>
         </div>
     </div>
@@ -105,11 +110,13 @@
     <script src="../Scripts/jquery-3.1.1.js"></script>
     <!-- CORE BOOTSTRAP LIBRARY -->
     <script src="../Scripts/bootstrap.min.js"></script>
-
+    <!-- CORE BOOTSTRAP MATERIAL LIBRARY -->
+    <script src="~/Scripts/material.js"></script>
+    <script src="~/Scripts/ripples.js"></script>
     <!-- CUSTOM SCRIPT-->
     <script>
         $(document).ready(function () {
-
+            $.material.init()
         });
 
     </script>
