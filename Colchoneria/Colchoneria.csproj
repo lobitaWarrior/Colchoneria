@@ -140,6 +140,9 @@
     <Content Include="Views\Index.cshtml" />
     <Content Include="Scripts\material.min.js.map" />
     <Content Include="Scripts\ripples.min.js.map" />
+    <Content Include="Views\Nosotros.cshtml" />
+    <Content Include="Views\Productos.cshtml" />
+    <Content Include="Views\Contacto.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -148,8 +151,6 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Views\about.html" />
-    <Content Include="Views\contact.html" />
     <Content Include="Views\gallery.html" />
     <Content Include="Views\pricing.html" />
     <Content Include="Views\services.html" />

@@ -57,6 +57,9 @@ h4{
 a, a:hover {
     text-decoration: none;
 }
+a, a:focus, a:hover{
+    color:#f44336;
+}
 
 p {
     line-height: 30px;
@@ -120,14 +123,14 @@ p {
 }
 
 .section {
-    background-color: #4E63D1;
+    background-color: #4a3636;
     color: #fff;
 }
 .circle-body {
  width: 150px;
 height: 150px;
 margin: 0 auto 14px auto;
-border: 5px solid #ADA2EB;
+border: 5px solid #4a3636;
 border-radius: 100%;
 background-color: #FFFFFF;
 }
@@ -291,4 +294,21 @@ color: #FF0000;
 
 .carousel-inner > .item > img, .carousel-inner > .item > a > img{
     max-width:none;
+}
+
+
+/* ==========================================================================
+   OTROS
+   ========================================================================== */
+
+#divCentered {
+  position: absolute;
+  z-index: 15;
+  left: 50%;
+  margin:-50px 0 0 -175px;
+  font-size:40px;
+}
+
+.form-group.is-focused .form-control{
+    background-image:linear-gradient(#f44336,#f44336),linear-gradient(#D2D2D2,#D2D2D2);
 }
