@@ -1,0 +1,40 @@
+﻿@{
+    Layout = "~/Views/_Layout.cshtml";
+}
+
+@{
+    var customerName = Request["Name"];
+    var customerEmail = Request["EmailAdress"];
+    var customerMessage= Request["MessageText"];
+    var errorMessage = "";
+    try
+    {
+        // Initialize WebMail helper
+        WebMail.SmtpServer = "mail.colchonesbekar.com";
+        WebMail.SmtpPort = 25;
+        //WebMail.EnableSsl = true;
+        WebMail.UserName = "preguntas@colchonesbekar.com";
+        WebMail.Password = "colchonesbekar147852369";
+        WebMail.From = "preguntas@colchonesbekar.com";
+
+        // Send email
+        WebMail.Send(to: "jenny.karcevas@gmail.com",
+            subject: "message from " + customerName,
+            body: "Mensaje: " + customerMessage + ", Email para responder: " + customerEmail
+        );
+    }
+    catch (Exception ex)
+    {
+        errorMessage = ex.Message;
+    }
+    finally
+    {
+        if (errorMessage=="")
+        {
+            errorMessage = "Se envio correctamente su email, gracias.";
+        }
+        Response.Redirect("~/Views/Contacto?response="+ errorMessage);
+
+    }
+}
+

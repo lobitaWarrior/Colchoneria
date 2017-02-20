@@ -44,3 +44,22 @@
 .card-deck .card{
     margin:35px !important;
 }
+
+/*BOOSTRAP**/
+.carousel-inner > .item > img {
+    margin: 0 auto;
+}
+
+/*ICONO MERCADOLIBRE*/
+.fa-mercadolibre-square:before {
+  content: url(../Imagenes/mercadolibreicon.png);
+}
+
+/*BARRA LOADER*/
+.progress .progress-bar, .progress .progress-bar.progress-bar-default {
+    background-color: #f55549;
+}
+
+.progress{
+    height:15px;
+}

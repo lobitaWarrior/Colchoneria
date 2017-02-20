@@ -105,11 +105,17 @@
     <Content Include="Content\style.css" />
     <Content Include="fonts\fontawesome-webfont.svg" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="Imagenes\01.jpg" />
+    <Content Include="Imagenes\02.jpg" />
+    <Content Include="Imagenes\03.jpg" />
     <Content Include="Imagenes\194_colchon_canape_muelles.jpg" />
-    <Content Include="Imagenes\Colchon_slide3.jpg" />
     <Content Include="Imagenes\futon_guatambu_3_c_con_resortes_2_thumb3.jpg" />
-    <Content Include="Imagenes\Futon_slide2.jpg" />
-    <Content Include="Imagenes\Sillon_slide1.jpg" />
+    <Content Include="Imagenes\mercadolibreicon.png" />
+    <Content Include="Imagenes\Telas\1.JPG" />
+    <Content Include="Imagenes\Telas\2.JPG" />
+    <Content Include="Imagenes\Telas\3.JPG" />
+    <Content Include="Imagenes\Telas\4.JPG" />
+    <Content Include="Imagenes\Telas\5.JPG" />
     <Content Include="packages.config" />
     <Content Include="fonts\FontAwesome.otf" />
     <Content Include="fonts\fontawesome-webfont.woff2" />
@@ -135,6 +141,7 @@
     <Content Include="Scripts\material.min.js" />
     <Content Include="Scripts\ripples.js" />
     <Content Include="Scripts\ripples.min.js" />
+    <Content Include="Scripts\waitingDialog.js" />
     <Content Include="Views\_Layout.cshtml" />
     <Content Include="Views\_ViewStart.cshtml" />
     <Content Include="Views\Index.cshtml" />
@@ -143,6 +150,7 @@
     <Content Include="Views\Nosotros.cshtml" />
     <Content Include="Views\Productos.cshtml" />
     <Content Include="Views\Contacto.cshtml" />
+    <Content Include="Views\ProcessRequest.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -151,9 +159,6 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Views\gallery.html" />
-    <Content Include="Views\pricing.html" />
-    <Content Include="Views\services.html" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>

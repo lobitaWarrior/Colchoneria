@@ -2,6 +2,11 @@
 @{
     Layout = "~/Views/_Layout.cshtml";
 }
+@{ 
+
+    var _response = Request["response"];
+}
+<script src="~/Scripts/waitingDialog.js"></script>
 <div class="section">
     <div class="container">
 
@@ -26,7 +31,7 @@
                 <b>Mail: </b> colchoneria@fibertel.com<br>
                 <b>Wathsapp: </b>1111111111<br>
                 <b>Tel.: </b> 4582-7417<br>
-                <a href="#"><b>Facebook</b></a><br>
+                <a href="https://www.facebook.com/demarmile/?fref=ts"><b>Facebook</b></a><br>
                 <a href="#"><b>Mercadolibre</b></a><br>
             </p>
         </div>
@@ -34,23 +39,24 @@
         <div class="col-md-7 col-sm-7">
             <h3><i class="fa fa-envelope" aria-hidden="true"></i> MANDANOS UN MENSAJE</h3>
             <hr>
-            <form>
+            <form id="mailform" method="post" action="~/Views/ProcessRequest.cshtml">
                 <div class="row">
                     <div class="col-md-6 col-sm-6">
                         <div class="form-group">
-                            <input type="text" class="form-control" required="required" placeholder="Name">
+                            <input type="text" name="Name" class="form-control" required="required" placeholder="Name">
                         </div>
                     </div>
                     <div class="col-md-6 col-sm-6">
                         <div class="form-group">
-                            <input type="text" class="form-control" required="required" placeholder="Email address">
+                            <input type="text" name="EmailAdress" class="form-control" required="required" placeholder="Email address">
                         </div>
                     </div>
                 </div>
                 <div class="row">
                     <div class="col-md-12 col-sm-12">
                         <div class="form-group">
-                            <textarea name="message" id="Textarea1" required="required" class="form-control" rows="7" placeholder="Message"></textarea>
+                            <input type="text" class="form-control" required="required" name="MessageText" placeholder="Message" />
+                            @*<textarea name="message" id="MessageText" required="required" class="form-control" rows="7" placeholder="Message"></textarea>*@
                         </div>
                         <div class="form-group">
                             <button type="submit" class="btn btn-raised btn-danger">Submit Request</button>
@@ -58,8 +64,15 @@
                     </div>
                 </div>
             </form>
+            <h4 style="color:#f55549;">@_response</h4>
         </div>
     </div>
 </div>
 <div class="space-bottom"></div>
 
+
+<script>
+    $('#mailform').submit(function (ev) {
+        waitingDialog.show("Mandando Email");
+    });
+</script>

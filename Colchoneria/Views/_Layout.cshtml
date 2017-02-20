@@ -11,7 +11,7 @@
     <!--[if IE]>
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
         <![endif]-->
-    <title>Colchoneria Karcevas</title>
+    <title>Colchones BEKAR</title>
     <!--GOOGLE FONT -->
     <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
     <!--BOOTSTRAP MAIN STYLES -->
@@ -27,6 +27,15 @@
     <!--CUSTOM STYLE -->
     <link href="../Content/style.css" rel="stylesheet" />
     <link href="~/Content/overrides.css" rel="stylesheet"/>
+
+    <!-- CORE JQUERY LIBRARY -->
+    <script src="../Scripts/jquery-3.1.1.js"></script>
+    <!-- CORE BOOTSTRAP LIBRARY -->
+    <script src="../Scripts/bootstrap.min.js"></script>
+    <!-- CORE BOOTSTRAP MATERIAL LIBRARY -->
+    <script src="~/Scripts/material.js"></script>
+    <script src="~/Scripts/ripples.js"></script>
+
 
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
@@ -45,7 +54,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="/Views/Index">COLCHONERIA KARCEVAS</a>
+                <a class="navbar-brand" href="/Views/Index">COLCHONES BEKAR</a>
             </div>
             <div class="navbar-collapse collapse">
                 <ul class="nav navbar-nav navbar-right">
@@ -70,8 +79,8 @@
         <div class="row">
             <div class="col-md-4">
                 <hr />
-                <h4>Colchoneria Karcevas</h4>
-                <p>1989</p>
+                <h4>Colchones Bekar</h4>
+                <p>1946-2017</p>
                 <p>Argentina</p>
                 <hr />
             </div>
@@ -79,8 +88,8 @@
                 <hr />
                 <h4>Siguenos: </h4>
                 <p>
-                    <a href="#"><i class="fa fa-facebook-square fa-3x color-facebook"></i></a>
-                    <a href="#"><i class="fa fa-twitter-square fa-3x color-twitter"></i></a>
+                    <a href="https://www.facebook.com/demarmile/?fref=ts"><i class="fa fa-facebook-square fa-3x color-facebook"></i></a>
+                    @*<a href="#"><i class="fa fa-mercadolibre-square"></i></a>*@
                 </p>
                 <br>
                 <hr />
@@ -99,31 +108,21 @@
     <div id="footerDesign">
         <div class="row">
             <div>
-                <p>Designed  by: Jennifer Karcevas</p>
+                @*<p>Designed  by: Jennifer Karcevas</p>*@
             </div>
         </div>
     </div>
 
     <!--END FOOTER SECTION -->
-    <!-- JAVASCRIPT FILES PLACED AT THE BOTTOM TO REDUCE THE LOADING TIME  -->
-    <!-- CORE JQUERY LIBRARY -->
-    <script src="../Scripts/jquery-3.1.1.js"></script>
-    <!-- CORE BOOTSTRAP LIBRARY -->
-    <script src="../Scripts/bootstrap.min.js"></script>
-    <!-- CORE BOOTSTRAP MATERIAL LIBRARY -->
-    <script src="~/Scripts/material.js"></script>
-    <script src="~/Scripts/ripples.js"></script>
+
     <!-- CUSTOM SCRIPT-->
     <script>
         $(document).ready(function () {
             $.material.init()
 
-            //TODO: ICONO PARA MERCADOLIBRE !
-            //TODO: CENTRAR MAS EL DESIGNED BY, AGREGARLE COPYRIGTH...
             //TODO: BAJARSE WOW.JS HACER TEXTO CAROUSEL SALGA CON EFECTO
-            //TODO: USER CDN EN LO POSIBLE (HACER BUNDLE!)
             //TODO: HACER TRANSICION MAS LENTA EN EL MENU ASI SE VE EL EFECTO MATERIAL
-            //TODO: HACER SUBMIT MAIL!
+            //TODO: MEJORAR CARROUSEL
         });
 
     </script>
