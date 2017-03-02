@@ -224,7 +224,8 @@ Image credits: unsplash.com
 /********************************/
 .fade-carousel .slides .slide-1, 
 .fade-carousel .slides .slide-2,
-.fade-carousel .slides .slide-3 {
+.fade-carousel .slides .slide-3,
+.fade-carousel .slides .slide-4 {
   height: 100vh;
   background-size: cover;
   background-position: center center;
@@ -234,10 +235,13 @@ Image credits: unsplash.com
   background-image: url(../Imagenes/01.jpg); 
 }
 .fade-carousel .slides .slide-2 {
-  background-image: url(../Imagenes/02.jpg);
+  background-image: url(../Imagenes/alm.jpg);
 }
 .fade-carousel .slides .slide-3 {
   background-image: url(../Imagenes/03.jpg);
+}
+.fade-carousel .slides .slide-4 {
+  background-image: url(../Imagenes/muchos_colchones.jpg);
 }
 
 /********************************/
