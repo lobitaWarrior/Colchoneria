@@ -114,4 +114,8 @@ C:\Users\lobita\Source\Repos\Colchoneria\Colchoneria\bin\es\System.Web.Razor.res
 C:\Users\lobita\Source\Repos\Colchoneria\Colchoneria\bin\es\System.Web.WebPages.resources.dll
 C:\Users\lobita\Source\Repos\Colchoneria\Colchoneria\bin\es\System.Web.WebPages.Deployment.resources.dll
 C:\Users\lobita\Source\Repos\Colchoneria\Colchoneria\bin\es\System.Web.WebPages.Razor.resources.dll
-C:\Users\lobita\Source\Repos\Colchoneria\Colchoneria\obj\Debug\Colchoneria.csprojResolveAssemblyReference.cache
+C:\Users\lobita\Source\Repos\Colchoneria\Colchoneria\bin\BouncyCastle.Crypto.dll
+C:\Users\lobita\Source\Repos\Colchoneria\Colchoneria\bin\MailKit.dll
+C:\Users\lobita\Source\Repos\Colchoneria\Colchoneria\bin\MimeKit.dll
+C:\Users\lobita\Source\Repos\Colchoneria\Colchoneria\bin\MailKit.xml
+C:\Users\lobita\Source\Repos\Colchoneria\Colchoneria\bin\MimeKit.xml

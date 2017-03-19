@@ -46,6 +46,14 @@
     <Prefer32Bit>false</Prefer32Bit>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="BouncyCastle.Crypto, Version=1.8.1.0, Culture=neutral, PublicKeyToken=0e99375e54769942">
+      <HintPath>..\packages\BouncyCastle.1.8.1\lib\BouncyCastle.Crypto.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="MailKit, Version=1.12.0.0, Culture=neutral, PublicKeyToken=4e064fe7c44a8f1b, processorArchitecture=MSIL">
+      <HintPath>..\packages\MailKit.1.12.0\lib\net45\MailKit.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
     <Reference Include="Microsoft.CodeDom.Providers.DotNetCompilerPlatform, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <HintPath>..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.0\lib\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll</HintPath>
       <Private>True</Private>
@@ -55,7 +63,12 @@
       <HintPath>..\packages\Microsoft.Web.Infrastructure.1.0.0.0\lib\net40\Microsoft.Web.Infrastructure.dll</HintPath>
       <Private>True</Private>
     </Reference>
+    <Reference Include="MimeKit, Version=1.12.0.0, Culture=neutral, PublicKeyToken=bede1c8a46c66814, processorArchitecture=MSIL">
+      <HintPath>..\packages\MimeKit.1.12.0\lib\net45\MimeKit.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
     <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Security" />
     <Reference Include="System.Web.DynamicData" />
     <Reference Include="System.Web.Entity" />
     <Reference Include="System.Web.ApplicationServices" />
@@ -116,9 +129,17 @@
     <Content Include="Imagenes\colchon-futon-negro-rojo.jpg" />
     <Content Include="Imagenes\colchon_divan.jpg" />
     <Content Include="Imagenes\colchon_divan_cama_2alm.jpg" />
+    <Content Include="Imagenes\ecocuero_2.jpg" />
+    <Content Include="Imagenes\fundas_ajustables.jpg" />
     <Content Include="Imagenes\futon_guatambu_3_c_con_resortes_2_thumb3.jpg" />
+    <Content Include="Imagenes\futon_letras.jpg" />
+    <Content Include="Imagenes\gabardina.jpg" />
     <Content Include="Imagenes\mercadolibreicon.png" />
     <Content Include="Imagenes\muchos_colchones.jpg" />
+    <Content Include="Imagenes\pana_labreada.jpg" />
+    <Content Include="Imagenes\posicion1.jpg" />
+    <Content Include="Imagenes\posicion2.jpg" />
+    <Content Include="Imagenes\posicion3.jpg" />
     <Content Include="Imagenes\Telas\alumine liso.jpg" />
     <Content Include="Imagenes\Telas\chennile.jpg" />
     <Content Include="Imagenes\Telas\cuero_ecologico_circulo.jpg" />
@@ -141,7 +162,6 @@
     <Content Include="Content\ripples.css.map" />
     <Content Include="Content\ripples.min.css.map" />
     <None Include="Properties\PublishProfiles\colchoneria ftp.pubxml" />
-    <None Include="Properties\PublishProfiles\colchoneria windows.pubxml" />
     <None Include="Scripts\jquery-3.1.1.intellisense.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="Scripts\jquery-3.1.1.js" />
