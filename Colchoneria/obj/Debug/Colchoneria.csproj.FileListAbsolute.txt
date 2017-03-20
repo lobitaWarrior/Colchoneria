@@ -119,3 +119,4 @@ C:\Users\lobita\Source\Repos\Colchoneria\Colchoneria\bin\MailKit.dll
 C:\Users\lobita\Source\Repos\Colchoneria\Colchoneria\bin\MimeKit.dll
 C:\Users\lobita\Source\Repos\Colchoneria\Colchoneria\bin\MailKit.xml
 C:\Users\lobita\Source\Repos\Colchoneria\Colchoneria\bin\MimeKit.xml
+C:\Users\lobita\Source\Repos\Colchoneria\Colchoneria\obj\Debug\Colchoneria.csprojResolveAssemblyReference.cache
