@@ -129,14 +129,14 @@
     <Content Include="Imagenes\colchon-futon-negro-rojo.jpg" />
     <Content Include="Imagenes\colchon_divan.jpg" />
     <Content Include="Imagenes\colchon_divan_cama_2alm.jpg" />
-    <Content Include="Imagenes\ecocuero_2.jpg" />
+    <Content Include="Imagenes\Telas\ecocuero_2.jpg" />
     <Content Include="Imagenes\fundas_ajustables.jpg" />
     <Content Include="Imagenes\futon_guatambu_3_c_con_resortes_2_thumb3.jpg" />
     <Content Include="Imagenes\futon_letras.jpg" />
-    <Content Include="Imagenes\gabardina.jpg" />
+    <Content Include="Imagenes\Telas\gabardina.jpg" />
     <Content Include="Imagenes\mercadolibreicon.png" />
     <Content Include="Imagenes\muchos_colchones.jpg" />
-    <Content Include="Imagenes\pana_labreada.jpg" />
+    <Content Include="Imagenes\Telas\pana_labreada.jpg" />
     <Content Include="Imagenes\posicion1.jpg" />
     <Content Include="Imagenes\posicion2.jpg" />
     <Content Include="Imagenes\posicion3.jpg" />
