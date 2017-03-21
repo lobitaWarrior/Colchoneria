@@ -91,8 +91,10 @@ C:\Users\lobita\Source\Repos\Colchoneria\Colchoneria\bin\roslyn\VBCSCompiler.exe
 C:\Users\lobita\Source\Repos\Colchoneria\Colchoneria\bin\Colchoneria.dll.config
 C:\Users\lobita\Source\Repos\Colchoneria\Colchoneria\bin\Colchoneria.dll
 C:\Users\lobita\Source\Repos\Colchoneria\Colchoneria\bin\Colchoneria.pdb
-C:\Users\lobita\Source\Repos\Colchoneria\Colchoneria\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
 C:\Users\lobita\Source\Repos\Colchoneria\Colchoneria\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\lobita\Source\Repos\Colchoneria\Colchoneria\obj\Debug\Colchoneria.dll
+C:\Users\lobita\Source\Repos\Colchoneria\Colchoneria\obj\Debug\Colchoneria.pdb
+C:\Users\lobita\Source\Repos\Colchoneria\Colchoneria\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
 C:\Users\lobita\Source\Repos\Colchoneria\Colchoneria\bin\System.Web.Helpers.dll
 C:\Users\lobita\Source\Repos\Colchoneria\Colchoneria\bin\System.Web.Mvc.dll
 C:\Users\lobita\Source\Repos\Colchoneria\Colchoneria\bin\System.Web.Razor.dll
@@ -112,6 +114,9 @@ C:\Users\lobita\Source\Repos\Colchoneria\Colchoneria\bin\es\System.Web.Razor.res
 C:\Users\lobita\Source\Repos\Colchoneria\Colchoneria\bin\es\System.Web.WebPages.resources.dll
 C:\Users\lobita\Source\Repos\Colchoneria\Colchoneria\bin\es\System.Web.WebPages.Deployment.resources.dll
 C:\Users\lobita\Source\Repos\Colchoneria\Colchoneria\bin\es\System.Web.WebPages.Razor.resources.dll
-C:\Users\lobita\Source\Repos\Colchoneria\Colchoneria\obj\Debug\Colchoneria.dll
-C:\Users\lobita\Source\Repos\Colchoneria\Colchoneria\obj\Debug\Colchoneria.pdb
+C:\Users\lobita\Source\Repos\Colchoneria\Colchoneria\bin\BouncyCastle.Crypto.dll
+C:\Users\lobita\Source\Repos\Colchoneria\Colchoneria\bin\MailKit.dll
+C:\Users\lobita\Source\Repos\Colchoneria\Colchoneria\bin\MimeKit.dll
+C:\Users\lobita\Source\Repos\Colchoneria\Colchoneria\bin\MailKit.xml
+C:\Users\lobita\Source\Repos\Colchoneria\Colchoneria\bin\MimeKit.xml
 C:\Users\lobita\Source\Repos\Colchoneria\Colchoneria\obj\Debug\Colchoneria.csprojResolveAssemblyReference.cache

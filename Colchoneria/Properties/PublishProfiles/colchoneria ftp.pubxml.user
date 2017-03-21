@@ -1,0 +1,326 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit http://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword />
+    <_PublishTargetUrl>ftp://ftp.colchonesbekar.com</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="bin/BouncyCastle.Crypto.dll">
+      <publishTime>04/26/2016 12:16:00</publishTime>
+    </File>
+    <File Include="bin/Colchoneria.dll">
+      <publishTime>03/19/2017 16:28:28</publishTime>
+    </File>
+    <File Include="bin/es/System.Web.Helpers.resources.dll">
+      <publishTime>01/28/2015 04:04:36</publishTime>
+    </File>
+    <File Include="bin/es/System.Web.Mvc.resources.dll">
+      <publishTime>01/28/2015 04:02:24</publishTime>
+    </File>
+    <File Include="bin/es/System.Web.Razor.resources.dll">
+      <publishTime>01/28/2015 04:02:36</publishTime>
+    </File>
+    <File Include="bin/es/System.Web.WebPages.Deployment.resources.dll">
+      <publishTime>01/28/2015 04:04:36</publishTime>
+    </File>
+    <File Include="bin/es/System.Web.WebPages.Razor.resources.dll">
+      <publishTime>01/28/2015 04:04:36</publishTime>
+    </File>
+    <File Include="bin/es/System.Web.WebPages.resources.dll">
+      <publishTime>01/28/2015 04:04:36</publishTime>
+    </File>
+    <File Include="bin/MailKit.dll">
+      <publishTime>03/12/2017 15:26:56</publishTime>
+    </File>
+    <File Include="bin/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll">
+      <publishTime>01/16/2017 20:05:08</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Web.Infrastructure.dll">
+      <publishTime>01/16/2017 20:05:09</publishTime>
+    </File>
+    <File Include="bin/MimeKit.dll">
+      <publishTime>03/12/2017 15:02:14</publishTime>
+    </File>
+    <File Include="bin/roslyn/csc.exe">
+      <publishTime>01/16/2017 20:05:09</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.Build.Tasks.CodeAnalysis.dll">
+      <publishTime>01/16/2017 20:05:08</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.CSharp.dll">
+      <publishTime>01/16/2017 20:05:08</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.dll">
+      <publishTime>01/16/2017 20:05:08</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.VisualBasic.dll">
+      <publishTime>01/16/2017 20:05:08</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CSharp.Core.targets">
+      <publishTime>01/16/2017 20:05:08</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.VisualBasic.Core.targets">
+      <publishTime>01/16/2017 20:05:08</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Collections.Immutable.dll">
+      <publishTime>01/16/2017 20:05:08</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Reflection.Metadata.dll">
+      <publishTime>01/16/2017 20:05:09</publishTime>
+    </File>
+    <File Include="bin/roslyn/vbc.exe">
+      <publishTime>01/16/2017 20:05:09</publishTime>
+    </File>
+    <File Include="bin/roslyn/VBCSCompiler.exe">
+      <publishTime>01/16/2017 20:05:09</publishTime>
+    </File>
+    <File Include="bin/roslyn/VBCSCompiler.exe.config">
+      <publishTime>01/16/2017 20:05:09</publishTime>
+    </File>
+    <File Include="bin/System.Web.Helpers.dll">
+      <publishTime>01/16/2017 20:05:08</publishTime>
+    </File>
+    <File Include="bin/System.Web.Mvc.dll">
+      <publishTime>01/16/2017 20:05:07</publishTime>
+    </File>
+    <File Include="bin/System.Web.Razor.dll">
+      <publishTime>01/16/2017 20:05:08</publishTime>
+    </File>
+    <File Include="bin/System.Web.WebPages.Deployment.dll">
+      <publishTime>01/16/2017 20:05:08</publishTime>
+    </File>
+    <File Include="bin/System.Web.WebPages.dll">
+      <publishTime>01/16/2017 20:05:08</publishTime>
+    </File>
+    <File Include="bin/System.Web.WebPages.Razor.dll">
+      <publishTime>01/16/2017 20:05:08</publishTime>
+    </File>
+    <File Include="Content/bootstrap-material-design.css">
+      <publishTime>01/16/2017 20:05:06</publishTime>
+    </File>
+    <File Include="Content/bootstrap-material-design.css.map">
+      <publishTime>01/16/2017 20:05:06</publishTime>
+    </File>
+    <File Include="Content/bootstrap-material-design.min.css">
+      <publishTime>01/16/2017 20:05:06</publishTime>
+    </File>
+    <File Include="Content/bootstrap-material-design.min.css.map">
+      <publishTime>01/16/2017 20:05:06</publishTime>
+    </File>
+    <File Include="Content/bootstrap.css">
+      <publishTime>01/16/2017 20:05:06</publishTime>
+    </File>
+    <File Include="Content/font-awesome.css">
+      <publishTime>01/16/2017 20:05:06</publishTime>
+    </File>
+    <File Include="Content/font-awesome.min.css">
+      <publishTime>01/16/2017 20:05:06</publishTime>
+    </File>
+    <File Include="Content/overrides.css">
+      <publishTime>03/19/2017 16:22:49</publishTime>
+    </File>
+    <File Include="Content/ripples.css">
+      <publishTime>01/16/2017 20:05:06</publishTime>
+    </File>
+    <File Include="Content/ripples.css.map">
+      <publishTime>01/16/2017 20:05:06</publishTime>
+    </File>
+    <File Include="Content/ripples.min.css">
+      <publishTime>01/16/2017 20:05:06</publishTime>
+    </File>
+    <File Include="Content/ripples.min.css.map">
+      <publishTime>01/16/2017 20:05:06</publishTime>
+    </File>
+    <File Include="Content/style.css">
+      <publishTime>03/19/2017 16:22:45</publishTime>
+    </File>
+    <File Include="fonts/fontawesome-webfont.eot">
+      <publishTime>01/16/2017 20:05:07</publishTime>
+    </File>
+    <File Include="fonts/fontawesome-webfont.svg">
+      <publishTime>01/16/2017 20:05:07</publishTime>
+    </File>
+    <File Include="fonts/fontawesome-webfont.ttf">
+      <publishTime>01/16/2017 20:05:07</publishTime>
+    </File>
+    <File Include="fonts/fontawesome-webfont.woff">
+      <publishTime>01/16/2017 20:05:07</publishTime>
+    </File>
+    <File Include="fonts/fontawesome-webfont.woff2">
+      <publishTime>01/16/2017 20:05:07</publishTime>
+    </File>
+    <File Include="fonts/FontAwesome.otf">
+      <publishTime>01/16/2017 20:05:07</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.eot">
+      <publishTime>01/16/2017 20:05:07</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.svg">
+      <publishTime>01/16/2017 20:05:07</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.ttf">
+      <publishTime>01/16/2017 20:05:07</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.woff">
+      <publishTime>01/16/2017 20:05:07</publishTime>
+    </File>
+    <File Include="Imagenes/01.jpg">
+      <publishTime>02/20/2017 09:59:52</publishTime>
+    </File>
+    <File Include="Imagenes/02.jpg">
+      <publishTime>02/20/2017 10:15:44</publishTime>
+    </File>
+    <File Include="Imagenes/03.jpg">
+      <publishTime>02/20/2017 10:15:44</publishTime>
+    </File>
+    <File Include="Imagenes/194_colchon_canape_muelles.jpg">
+      <publishTime>01/16/2017 20:05:06</publishTime>
+    </File>
+    <File Include="Imagenes/alm.jpg">
+      <publishTime>03/01/2017 23:35:07</publishTime>
+    </File>
+    <File Include="Imagenes/alm_estilocampo.jpg">
+      <publishTime>03/01/2017 23:33:57</publishTime>
+    </File>
+    <File Include="Imagenes/colchon-futon-negro-rojo.jpg">
+      <publishTime>02/20/2017 15:14:35</publishTime>
+    </File>
+    <File Include="Imagenes/colchon_divan.jpg">
+      <publishTime>03/01/2017 23:33:57</publishTime>
+    </File>
+    <File Include="Imagenes/colchon_divan_cama_2alm.jpg">
+      <publishTime>03/01/2017 23:33:57</publishTime>
+    </File>
+    <File Include="Imagenes/ecocuero_2.jpg">
+      <publishTime>03/19/2017 15:34:01</publishTime>
+    </File>
+    <File Include="Imagenes/fundas_ajustables.jpg">
+      <publishTime>03/19/2017 15:34:01</publishTime>
+    </File>
+    <File Include="Imagenes/futon_guatambu_3_c_con_resortes_2_thumb3.jpg">
+      <publishTime>01/16/2017 20:05:06</publishTime>
+    </File>
+    <File Include="Imagenes/futon_letras.jpg">
+      <publishTime>03/19/2017 15:34:01</publishTime>
+    </File>
+    <File Include="Imagenes/gabardina.jpg">
+      <publishTime>03/19/2017 16:02:03</publishTime>
+    </File>
+    <File Include="Imagenes/mercadolibreicon.png">
+      <publishTime>02/20/2017 10:47:36</publishTime>
+    </File>
+    <File Include="Imagenes/muchos_colchones.jpg">
+      <publishTime>03/01/2017 23:33:57</publishTime>
+    </File>
+    <File Include="Imagenes/pana_labreada.jpg">
+      <publishTime>03/19/2017 15:34:01</publishTime>
+    </File>
+    <File Include="Imagenes/posicion1.jpg">
+      <publishTime>03/19/2017 15:34:01</publishTime>
+    </File>
+    <File Include="Imagenes/posicion2.jpg">
+      <publishTime>03/19/2017 15:34:01</publishTime>
+    </File>
+    <File Include="Imagenes/posicion3.jpg">
+      <publishTime>03/19/2017 15:34:01</publishTime>
+    </File>
+    <File Include="Imagenes/Telas/alumine liso.jpg">
+      <publishTime>03/01/2017 23:31:26</publishTime>
+    </File>
+    <File Include="Imagenes/Telas/chennile.jpg">
+      <publishTime>03/01/2017 23:31:26</publishTime>
+    </File>
+    <File Include="Imagenes/Telas/cuero_ecologico_circulo.jpg">
+      <publishTime>03/01/2017 23:31:26</publishTime>
+    </File>
+    <File Include="Imagenes/Telas/ecocuero.jpg">
+      <publishTime>03/01/2017 23:31:26</publishTime>
+    </File>
+    <File Include="Imagenes/Telas/ecocuero_dibujado.jpg">
+      <publishTime>03/01/2017 23:31:26</publishTime>
+    </File>
+    <File Include="Imagenes/Telas/leblon.jpg">
+      <publishTime>03/01/2017 23:31:26</publishTime>
+    </File>
+    <File Include="Imagenes/Telas/pana.jpg">
+      <publishTime>03/01/2017 23:31:26</publishTime>
+    </File>
+    <File Include="Imagenes/Telas/talampaya.jpg">
+      <publishTime>03/01/2017 23:31:26</publishTime>
+    </File>
+    <File Include="packages.config">
+      <publishTime>03/19/2017 16:10:01</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap.min.js">
+      <publishTime>01/16/2017 20:05:06</publishTime>
+    </File>
+    <File Include="Scripts/jquery-3.1.1.js">
+      <publishTime>01/16/2017 20:05:06</publishTime>
+    </File>
+    <File Include="Scripts/jquery-3.1.1.min.js">
+      <publishTime>01/16/2017 20:05:06</publishTime>
+    </File>
+    <File Include="Scripts/jquery-3.1.1.min.map">
+      <publishTime>01/16/2017 20:05:06</publishTime>
+    </File>
+    <File Include="Scripts/jquery-3.1.1.slim.js">
+      <publishTime>01/16/2017 20:05:06</publishTime>
+    </File>
+    <File Include="Scripts/jquery-3.1.1.slim.min.js">
+      <publishTime>01/16/2017 20:05:06</publishTime>
+    </File>
+    <File Include="Scripts/jquery-3.1.1.slim.min.map">
+      <publishTime>01/16/2017 20:05:06</publishTime>
+    </File>
+    <File Include="Scripts/material.js">
+      <publishTime>01/16/2017 20:44:12</publishTime>
+    </File>
+    <File Include="Scripts/material.min.js">
+      <publishTime>01/16/2017 20:44:12</publishTime>
+    </File>
+    <File Include="Scripts/material.min.js.map">
+      <publishTime>01/16/2017 20:44:12</publishTime>
+    </File>
+    <File Include="Scripts/ripples.js">
+      <publishTime>01/16/2017 20:44:12</publishTime>
+    </File>
+    <File Include="Scripts/ripples.min.js">
+      <publishTime>01/16/2017 20:44:12</publishTime>
+    </File>
+    <File Include="Scripts/ripples.min.js.map">
+      <publishTime>01/16/2017 20:44:12</publishTime>
+    </File>
+    <File Include="Scripts/waitingDialog.js">
+      <publishTime>02/20/2017 12:35:30</publishTime>
+    </File>
+    <File Include="Views/Contacto.cshtml">
+      <publishTime>03/19/2017 16:14:05</publishTime>
+    </File>
+    <File Include="Views/Index.cshtml">
+      <publishTime>03/01/2017 23:41:00</publishTime>
+    </File>
+    <File Include="Views/Nosotros.cshtml">
+      <publishTime>03/19/2017 15:34:10</publishTime>
+    </File>
+    <File Include="Views/ProcessRequest.cshtml">
+      <publishTime>03/19/2017 15:55:32</publishTime>
+    </File>
+    <File Include="Views/Productos.cshtml">
+      <publishTime>03/19/2017 16:15:59</publishTime>
+    </File>
+    <File Include="Views/_Layout.cshtml">
+      <publishTime>02/22/2017 13:46:48</publishTime>
+    </File>
+    <File Include="Views/_ViewStart.cshtml">
+      <publishTime>01/16/2017 20:05:06</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>03/20/2017 00:13:51</publishTime>
+    </File>
+  </ItemGroup>
+</Project>
