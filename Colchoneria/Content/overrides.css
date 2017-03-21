@@ -249,7 +249,7 @@ Image credits: unsplash.com
 /********************************/
 @media screen and (min-width: 980px){
     .hero { width: 980px; }    
-    .card-deck .card {margin:15px !important;}
+    /*.card-deck .card {margin:15px !important;}*/
     /*.carousel{display:none !important;}*/
 }
 @media screen and (max-width: 640px){
