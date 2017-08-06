@@ -1,7 +1,4 @@
 *faltan fotos pocas, que las tiejne que mandar.
-*ver lo del email si no se rompe, si es asi arreglarlo.
-**ajustar imagenes carrousel(achicarlas)
-*cambiar mail para forward a papa (host)
 *link mercadolibre
 
 ANOTACION:
