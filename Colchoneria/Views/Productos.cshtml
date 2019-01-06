@@ -20,7 +20,7 @@
 
 <div class="container">
 
-    <h2 id="productosColchones">Colchones</h2>
+    <h1 class="color-darkred" id="productosColchones">Colchones</h1>
     <div class="card-deck">
 
         <div class="card">
@@ -34,7 +34,7 @@
                 </button>
             </div><!-- card content -->
             <div class="card-reveal" data-rel="colchon1">
-                <span class="card-title">Informacion</span> <button type="button" class="close" data-rel="colchon1" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+                <span class="card-title">Información</span> <button type="button" class="close" data-rel="colchon1" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
                 <p>
                     <strong>Medidas:</strong>
                     <ul>
@@ -74,7 +74,7 @@
                 </button>
             </div><!-- card content -->
             <div class="card-reveal" data-rel="colchon2">
-                <span class="card-title">Informacion</span> <button type="button" class="close" data-rel="colchon2" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+                <span class="card-title">Información</span> <button type="button" class="close" data-rel="colchon2" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
                 <p>
                     <strong>Medidas:</strong>
                     <ul>
@@ -104,8 +104,27 @@
         </div><!-- card -->
 
         <div class="card">
-            <div class="card-image">
-                <img class="card-img-top img-responsive" src="~/Imagenes/03.jpg">
+            <div id="myCarousel2" class="card-image carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#myCarousel2" data-slide-to="0" class="active"></li>
+                    <li data-target="#myCarousel2" data-slide-to="1"></li>
+                </ol>
+                <div class="carousel-inner" style="height:100% !important;" role="listbox">
+                    <div class="item active">
+                        <img class="card-img-top img-responsive" src="~/Imagenes/DSCN0774.JPG">
+                    </div>
+                    <div class="item">
+                        <img class="card-img-top img-responsive" src="~/Imagenes/DSCN0776.JPG">
+                    </div>
+                </div>
+                <a class="left carousel-control" href="#myCarousel2" role="button" data-slide="prev">
+                    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="right carousel-control" href="#myCarousel2" role="button" data-slide="next">
+                    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
             </div><!-- card image -->
             <div class="card-content">
                 <span class="card-title">Colchones de Futon Resorte Duo</span>
@@ -114,7 +133,7 @@
                 </button>
             </div><!-- card content -->
             <div class="card-reveal" data-rel="colchon3">
-                <span class="card-title">Informacion</span> <button type="button" class="close" data-rel="colchon3" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+                <span class="card-title">Información</span> <button type="button" class="close" data-rel="colchon3" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
                 <p>
                     <strong>Medidas:</strong> 2 colchones individuales 190 x 070 x 025 cada placa
                 </p>
@@ -125,7 +144,6 @@
                 </p>
             </div><!-- card reveal -->
         </div><!-- card -->
-
 
         <div class="card">
             <div class="card-image">
@@ -138,7 +156,7 @@
                 </button>
             </div><!-- card content -->
             <div class="card-reveal" data-rel="colchon5">
-                <span class="card-title">Informacion</span> <button type="button" class="close" data-rel="colchon5" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+                <span class="card-title">Información</span> <button type="button" class="close" data-rel="colchon5" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
                 <p>
                     <strong>Medidas:</strong> 80 x 190 x 20
                 </p>
@@ -160,25 +178,48 @@
         </div><!-- card -->
 
         <div class="card">
-            <div class="card-image">
-                <img class="card-img-top img-responsive" src="~/Imagenes/futon_guatambu_3_c_con_resortes_2_thumb3.jpg">
+            <div id="myCarousel1" class="card-image carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#myCarousel1" data-slide-to="0" class="active"></li>
+                    <li data-target="#myCarousel1" data-slide-to="1"></li>
+                    <li data-target="#myCarousel1" data-slide-to="2"></li>
+                    <li data-target="#myCarousel1" data-slide-to="3"></li>
+                </ol>
+                <div class="carousel-inner" style="height:100% !important;" role="listbox">
+                    <div class="item active">
+                        <img class="card-img-top img-responsive" src="~/Imagenes/DSCN0959.JPG">
+                    </div>
+                    <div class="item">
+                        <img class="card-img-top img-responsive" src="~/Imagenes/DSCN0962.JPG">
+                    </div>
+                    <div class="item">
+                        <img class="card-img-top img-responsive" src="~/Imagenes/DSCN0964.JPG">
+                    </div>
+                    <div class="item">
+                        <img class="card-img-top img-responsive" src="~/Imagenes/DSCN0969.JPG">
+                    </div>
+                </div>
+                <a class="left carousel-control" href="#myCarousel1" role="button" data-slide="prev">
+                    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="right carousel-control" href="#myCarousel1" role="button" data-slide="next">
+                    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
             </div><!-- card image -->
             <div class="card-content">
-                <span class="card-title">Colchones divan cama con 2/3 almohadones</span>
+                <span class="card-title">Colchones y almohadones artesanales en arpillera y otros tipos de tela</span>
                 <button type="button" class="btn btn-danger btn-raised btn-fab btn-fab-mini pull-right show-btn" data-rel="colchon6">
                     <i class="fa fa-info"></i>
                 </button>
             </div><!-- card content -->
             <div class="card-reveal" data-rel="colchon6">
-                <span class="card-title">Informacion</span> <button type="button" class="close" data-rel="colchon6" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+                <span class="card-title">Información</span> <button type="button" class="close" data-rel="colchon6" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
                 <p>
-                    <strong>Medidas:</strong> 80 x 190 x 20
+                    <strong>Medidas:</strong> Todas las medidas, consulte para mas información.
                 </p>
                 <p><strong>Relleno:</strong> Algodon desfibrado natural y copos de poliester, botones forrados en la misma tela o a eleccion.</p>
-                <p>
-                    <strong>Caracteristicas:</strong>
-                    Viene con 2 almohadones rellenos de copos de poliester y algodon desfibrado.
-                </p>
             </div><!-- card reveal -->
         </div><!-- card -->
 
@@ -193,7 +234,7 @@
                 </button>
             </div><!-- card content -->
             <div class="card-reveal" data-rel="colchon7">
-                <span class="card-title">Informacion</span> <button type="button" class="close" data-rel="colchon7" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+                <span class="card-title">Información</span> <button type="button" class="close" data-rel="colchon7" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
                 <p>
                     <strong>Medidas:</strong> 80 x 190 x 20
                 </p>
@@ -239,7 +280,7 @@
                 </button>
             </div><!-- card content -->
             <div class="card-reveal" data-rel="colchon8">
-                <span class="card-title">Informacion</span> <button type="button" class="close" data-rel="colchon8" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+                <span class="card-title">Información</span> <button type="button" class="close" data-rel="colchon8" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
                 <p>
                     <strong>Medidas:</strong> 67cm Ancho x 2M largo x 15cm altura
                 </p>
@@ -254,7 +295,7 @@
     </div>
 
 
-    <h2 id="productosAlmohadones">Almohadones</h2>
+    <h1 class="color-darkred" id="productosAlmohadones">Almohadones</h1>
     <div class="card-deck">
 
 
@@ -269,7 +310,7 @@
                 </button>
             </div><!-- card content -->
             <div class="card-reveal" data-rel="alm1">
-                <span class="card-title">Informacion</span> <button type="button" class="close" data-rel="alm1" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+                <span class="card-title">Información</span> <button type="button" class="close" data-rel="alm1" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
                 <p>
                     <strong>Dimensiones:</strong>
                     <ul>
@@ -297,7 +338,7 @@
                 </button>
             </div><!-- card content -->
             <div class="card-reveal" data-rel="alm2">
-                <span class="card-title">Informacion</span> <button type="button" class="close" data-rel="alm2" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+                <span class="card-title">Información</span> <button type="button" class="close" data-rel="alm2" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
                 <p>
                     <strong>Dimensiones:</strong>
                     <ul>
@@ -316,7 +357,7 @@
     </div>
 
 
-    <h2 id="productosFundas">Fundas</h2>
+    <h1 class="color-darkred" id="productosFundas">Fundas</h1>
     <div class="card-deck">
 
 
@@ -331,7 +372,7 @@
                 </button>
             </div><!-- card content -->
             <div class="card-reveal" data-rel="funda1">
-                <span class="card-title">Informacion</span> <button type="button" class="close" data-rel="funda1" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+                <span class="card-title">Información</span> <button type="button" class="close" data-rel="funda1" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
                 <p>
                     <strong>Caracteristicas:</strong>
                     Con cierre perimetral en tres de sus lados para una facil colocacion
@@ -350,7 +391,7 @@
                 </button>
             </div><!-- card content -->
             <div class="card-reveal" data-rel="funda2">
-                <span class="card-title">Informacion</span> <button type="button" class="close" data-rel="funda2" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+                <span class="card-title">Información</span> <button type="button" class="close" data-rel="funda2" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
                 <p>
                     <strong>Caracteristicas:</strong>
                     Con cierre perimetral en tres de sus lados para una facil colocacion
@@ -360,7 +401,7 @@
 
     </div>
     
-    <h2 id="productosTelas">Telas</h2>
+    <h1 class="color-darkred" id="productosTelas">Telas</h1>
     <div class="card-deck">
         
         <div class="card">
@@ -374,7 +415,7 @@
                 </button>
             </div><!-- card content -->
             <div class="card-reveal" data-rel="tela1">
-                <span class="card-title">Informacion</span> <button type="button" class="close" data-rel="tela1" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+                <span class="card-title">Información</span> <button type="button" class="close" data-rel="tela1" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
                 <p>
                     <strong>Colores:</strong>
                     <ul>
@@ -420,7 +461,7 @@
                 </button>
             </div><!-- card content -->
             <div class="card-reveal" data-rel="tela2">
-                <span class="card-title">Informacion</span> <button type="button" class="close" data-rel="tela2" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+                <span class="card-title">Información</span> <button type="button" class="close" data-rel="tela2" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
                 <p>
                     <strong>Colores:</strong>
                     <ul>
@@ -442,7 +483,7 @@
                 </button>
             </div><!-- card content -->
             <div class="card-reveal" data-rel="tela3">
-                <span class="card-title">Informacion</span> <button type="button" class="close" data-rel="tela3" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+                <span class="card-title">Información</span> <button type="button" class="close" data-rel="tela3" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
                 <p>
                     <strong>Colores:</strong>
                     <ul>
@@ -464,7 +505,7 @@
                 </button>
             </div><!-- card content -->
             <div class="card-reveal" data-rel="tela4">
-                <span class="card-title">Informacion</span> <button type="button" class="close" data-rel="tela4" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+                <span class="card-title">Información</span> <button type="button" class="close" data-rel="tela4" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
                 <p>
                     <strong>Colores:</strong>
                     <ul>
@@ -486,7 +527,7 @@
                 </button>
             </div><!-- card content -->
             <div class="card-reveal" data-rel="tela5">
-                <span class="card-title">Informacion</span> <button type="button" class="close" data-rel="tela5" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+                <span class="card-title">Información</span> <button type="button" class="close" data-rel="tela5" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
                 <p>
                     <strong>Colores:</strong>
                     <ul>
@@ -508,7 +549,7 @@
                 </button>
             </div><!-- card content -->
             <div class="card-reveal" data-rel="tela6">
-                <span class="card-title">Informacion</span> <button type="button" class="close" data-rel="tela6" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+                <span class="card-title">Información</span> <button type="button" class="close" data-rel="tela6" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
                 <p><strong>Colores:</strong>
                 <ul>
                     <li>Blanco</li>
@@ -545,7 +586,7 @@
                 </button>
             </div><!-- card content -->
             <div class="card-reveal" data-rel="tela10">
-                <span class="card-title">Informacion</span> <button type="button" class="close" data-rel="tela10" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+                <span class="card-title">Información</span> <button type="button" class="close" data-rel="tela10" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
                 <p>
                     <strong>Colores:</strong>
                     <ul>
@@ -568,7 +609,7 @@
                 </button>
             </div><!-- card content -->
             <div class="card-reveal" data-rel="tela7">
-                <span class="card-title">Informacion</span> <button type="button" class="close" data-rel="tela7" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+                <span class="card-title">Información</span> <button type="button" class="close" data-rel="tela7" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
                 <p>
                     <strong>Colores:</strong>
                     <ul>
@@ -598,7 +639,7 @@
                 </button>
             </div><!-- card content -->
             <div class="card-reveal" data-rel="tela8">
-                <span class="card-title">Informacion</span> <button type="button" class="close" data-rel="tela8" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+                <span class="card-title">Información</span> <button type="button" class="close" data-rel="tela8" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
                 <p>
                     <strong>Colores:</strong>
                     <ul>
@@ -609,7 +650,7 @@
             </div><!-- card reveal -->
         </div><!-- card -->
 
-        <div class="card">
+        @*<div class="card">
             <div class="card-image">
                 <img class="card-img-top img-responsive" src="~/Imagenes/Telas/gabardina.jpg">
             </div><!-- card image -->
@@ -620,7 +661,7 @@
                 </button>
             </div><!-- card content -->
             <div class="card-reveal" data-rel="tela9">
-                <span class="card-title">Informacion</span> <button type="button" class="close" data-rel="tela9" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+                <span class="card-title">Información</span> <button type="button" class="close" data-rel="tela9" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
                 <p>
                     <strong>Colores:</strong>
                     <ul>
@@ -644,7 +685,7 @@
                 </p>
 
             </div><!-- card reveal -->
-        </div><!-- card -->
+        </div><!-- card -->*@
 
     </div>
 

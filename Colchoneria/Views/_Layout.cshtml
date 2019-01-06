@@ -44,15 +44,6 @@
     <link href="../Content/style.css" rel="stylesheet" />
     <link href="~/Content/overrides.css" rel="stylesheet"/>
 
-    <!-- CORE JQUERY LIBRARY -->
-    <script src="../Scripts/jquery-3.1.1.js"></script>
-    <!-- CORE BOOTSTRAP LIBRARY -->
-    <script src="../Scripts/bootstrap.min.js"></script>
-    <!-- CORE BOOTSTRAP MATERIAL LIBRARY -->
-    <script src="~/Scripts/material.js"></script>
-    <script src="~/Scripts/ripples.js"></script>
-
-
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
@@ -74,10 +65,23 @@
             </div>
             <div class="navbar-collapse collapse">
                 <ul class="nav navbar-nav navbar-right">
-                    <li><a href="/Views/Index">HOME</a></li>
-                    <li><a href="/Views/Nosotros">NOSOTROS</a></li>
-                    <li><a href="/Views/Productos">PRODUCTOS</a></li>
-                    <li><a href="/Views/Contacto">CONTACTO</a></li>
+                    <li><a href="/Views/Index">Home</a></li>
+                    <li><a href="/Views/Nosotros">Nosotros</a></li>
+                    @*<li><a href="/Views/Productos">Productos</a></li>*@
+                    <li>
+                        <div class="dropdown show">
+                            <a class="btn dropdown-toggle dropdown-link" role="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Productos
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                <a class="dropdown-item" href="/Views/Productos#productosColchones">Colchones</a>
+                                <a class="dropdown-item" href="/Views/Productos#productosAlmohadones">Almohadones</a>
+                                <a class="dropdown-item" href="/Views/Productos#productosFundas">Fundas</a>
+                                <a class="dropdown-item" href="/Views/Productos#productosTelas">Telas</a>
+                            </div>
+                        </div>
+                    </li>
+                    <li><a href="/Views/Contacto">Contacto</a></li>
                 </ul>
             </div>
 
@@ -93,43 +97,41 @@
 
     <div id="footer">
         <div class="row">
-            <div class="col-md-4">
+            <div class="col-md-9 col-sm-9">
                 <hr />
                 <h4>Colchones Bekar</h4>
-                <p>1946 - 2017</p>
+                <p>1946 - 2019</p>
                 <p>Argentina - Buenos Aires</p>
-                <hr />
             </div>
-            <div class="col-md-4">
+            <div class="col-md-3 col-sm-3">
                 <hr />
                 <h4>Siguenos: </h4>
                 <p>
                     <a href="https://www.facebook.com/demarmile/?fref=ts"><i class="fa fa-facebook-square fa-3x color-facebook"></i></a>
-                    @*<a href="#"><i class="fa fa-mercadolibre-square"></i></a>*@
+                    <a style="display:flex;" href="https://articulo.mercadolibre.com.ar/MLA-659146652-fabrica-de-colchones-artesanales-de-futones-y-almohadones-_JM?quantity=1"><i class="fa fa-mercadolibre-square"></i></a>
                 </p>
                 <br>
-                <hr />
-            </div>
-            <div class="col-md-4">
-                <hr />
-                <h4>Consultas:</h4>
-                <p>
-                    <b>Mail: </b>colchoneria@fibertel.com.ar</br>
-                </p>
-                <p><b>Tel: </b>4582-7417</p>
-                <hr />
             </div>
         </div>
     </div>
-    <div id="footerDesign">
+    @*<div id="footerDesign">
         <div class="row">
             <div>
-                @*<p>Designed  by: Jennifer Karcevas</p>*@
+                <p>Designed  by: Jennifer Karcevas</p>
             </div>
         </div>
-    </div>
+    </div>*@
 
     <!--END FOOTER SECTION -->
+
+    <!-- CORE JQUERY LIBRARY -->
+    <script src="../Scripts/jquery-3.1.1.js"></script>
+    <!-- CORE BOOTSTRAP LIBRARY -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/esm/popper-utils.js"></script>
+    <script src="../Scripts/bootstrap.min.js"></script>
+    <!-- CORE BOOTSTRAP MATERIAL LIBRARY -->
+    <script src="~/Scripts/material.js"></script>
+    <script src="~/Scripts/ripples.js"></script>
 
     <!-- CUSTOM SCRIPT-->
     <script>
