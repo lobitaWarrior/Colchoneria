@@ -693,9 +693,9 @@
 </div>
 <div class="space-bottom"></div>
 
-<script>
-    $(function () {
+<script type="text/javascript">
 
+    $(document).ready(function () {
         $('.show-btn').on('click', function () {
             //$('.card-reveal').slideToggle('slow');
             $('div.card-reveal[data-rel=' + $(this).data('rel') + ']').slideToggle('slow');
@@ -707,5 +707,6 @@
         $('.card-reveal .close').on('click', function () {
             $('div.card-reveal[data-rel=' + $(this).data('rel') + ']').slideToggle('slow');
         });
-    });
+    })
+
 </script>
