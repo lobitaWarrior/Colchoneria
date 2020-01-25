@@ -125,12 +125,6 @@
     <Content Include="Imagenes\colchon-futon-negro-rojo.jpg" />
     <Content Include="Imagenes\colchon_divan.jpg" />
     <Content Include="Imagenes\colchon_divan_cama_2alm.jpg" />
-    <Content Include="Imagenes\DSCN0774.JPG" />
-    <Content Include="Imagenes\DSCN0776.JPG" />
-    <Content Include="Imagenes\DSCN0959.JPG" />
-    <Content Include="Imagenes\DSCN0962.JPG" />
-    <Content Include="Imagenes\DSCN0964.JPG" />
-    <Content Include="Imagenes\DSCN0969.JPG" />
     <Content Include="Imagenes\favicon\android-icon-144x144.png" />
     <Content Include="Imagenes\favicon\android-icon-192x192.png" />
     <Content Include="Imagenes\favicon\android-icon-36x36.png" />

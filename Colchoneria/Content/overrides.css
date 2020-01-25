@@ -121,7 +121,10 @@
     height:15px;
 }
 
-
+/*FONTAWESOME*/
+.fa-4x {
+    font-size: 3.8em !important;
+}
 
 /*
 Fade content bs-carousel with hero headers
